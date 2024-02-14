@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3498db;
+    margin-top:50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.container{
+    display: flex;
+    /* background-color: #3498db; */
+justify-content: space-between;
+}
+.left-text{
+    display: flex;
+}
+.left-text h1{
+    font-size: 50px;
+}
+.straigt-line{
+    margin-top: 35px;
+    margin-left: 20px;
+    background-color: white;
+    width: 8px;
+    height: 230px;
+    border-radius: 5px;
+    margin-right: 9px;
+}
+.form-background {
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.login-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.form-footer {
+    text-align: center;
+}
+
+.forgot-password {
+    color: #3498db;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.login-form p {
+    color: #333;
+}
+
+.login-form p a {
+    color: #3498db;
+    text-decoration: none;
+}
